@@ -253,4 +253,9 @@ border: 1px solid #C778DD;
     color: white;
     padding-top: 0px;
   }
+  .logo {
+    padding-left: 26px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
 }
