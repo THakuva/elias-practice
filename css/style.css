@@ -120,10 +120,12 @@ html, body {
   padding: 8px 16px;
   border: 1px solid #C778DD;
 }
+
 .text3:hover {
   transform: scale(1.05);
   color: #C778DD;
 }
+
 .headerimg {
   display: flex;
   flex-direction: column;
@@ -132,21 +134,23 @@ html, body {
 }
 
 .headerimg-elias {}
+
 .headerimgtextbox {
   box-sizing: border-box;
 
-width: 16px;
-height: 16px;
-margin-right: 10px;
-background: #C778DD;
-border: 1px solid #C778DD;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  background: #C778DD;
+  border: 1px solid #C778DD;
 }
+
 .headerimgtext {
   margin-left: 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content:flex-start;
+  justify-content: flex-start;
   font-weight: 500;
   color: #ABB2BF;
   padding-left: 8px;
@@ -154,29 +158,97 @@ border: 1px solid #C778DD;
   height: 37px;
   border: 1px solid #ABB2BF;
 }
+
 .clr_f {
   color: #C778DD;
 }
+
 .clr_w {
   color: white;
 }
-.headerimgtextlink{
+
+.headerimgtextlink {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-.headerimgtextlink:hover{
+
+.headerimgtextlink:hover {
   color: #C778DD;
 }
 
+.mainquote {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 712px;
+  padding-top: 112px;
+  margin: auto;
+}
+
+.mainquotetext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divquotetext {
+  display: flex;
+  width: 712px;
+  height: 95px;
+  border: 1px solid #ABB2BF;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.divquotetexttext {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+  flex: none;
+order: 0;
+}
+
+.mainquoteimg {
+  position: relative;
+  top: 48px;
+  right: 20px;
+}
+
+.mainquoteimg1 {
+  position: relative;
+  bottom: 45px;
+  left: 20px;
+}
+
+.mainquotetextautor {
+  width: 162px;
+  height: 63px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  align-self: flex-end;
+  border: 1px solid #ABB2BF;
+
+  color: #FFFFFF;
+
+}
 
 
 /* -------------------------------------------------------- */
-@media (max-width:768px){
+@media (max-width:768px) {
   .container {
     max-width: 768px;
     margin: auto;
     padding: 32px 64px 8px;
   }
+
   .header {
     display: flex;
     flex-direction: column;
@@ -184,6 +256,7 @@ border: 1px solid #C778DD;
     align-items: center;
     white-space: nowrap;
   }
+
   .main {
     display: flex;
     flex-direction: column;
@@ -191,6 +264,7 @@ border: 1px solid #C778DD;
     align-items: center;
     padding: 62px 0px 0px;
   }
+
   .navlist {
     display: flex;
     padding-top: 32px;
@@ -199,12 +273,14 @@ border: 1px solid #C778DD;
     justify-content: space-between;
   }
 }
-@media (max-width:420px){
+
+@media (max-width:420px) {
   .container {
     max-width: 420px;
     margin: auto;
     padding: 32px 64px 8px;
   }
+
   .header {
     display: flex;
     flex-direction: column;
@@ -212,6 +288,7 @@ border: 1px solid #C778DD;
     align-items: center;
     white-space: nowrap;
   }
+
   .main {
     display: flex;
     flex-direction: column;
@@ -219,6 +296,7 @@ border: 1px solid #C778DD;
     align-items: center;
     padding: 0px 0px 0px;
   }
+
   .navlist {
     display: flex;
     padding-top: 32px;
@@ -226,6 +304,7 @@ border: 1px solid #C778DD;
     flex-direction: row;
     justify-content: space-between;
   }
+
   .headerimg {
     transform: scale(0.6);
     display: flex;
@@ -233,6 +312,7 @@ border: 1px solid #C778DD;
     justify-content: flex-start;
     align-items: flex-start;
   }
+
   .navlist {
     display: flex;
     gap: 20px;
@@ -240,7 +320,8 @@ border: 1px solid #C778DD;
     justify-content: space-between;
     font-weight: 12px;
   }
-  .media{
+
+  .media {
     transform: scale(0.8);
     position: fixed;
     width: 32px;
@@ -251,6 +332,7 @@ border: 1px solid #C778DD;
     flex-direction: column;
     align-items: center;
   }
+
   .text1 {
     font-weight: 600;
     font-size: 30px;
@@ -258,6 +340,7 @@ border: 1px solid #C778DD;
     color: white;
     padding-top: 0px;
   }
+
   .logo {
     padding-left: 26px;
     -webkit-transition: all 0.5s ease;
