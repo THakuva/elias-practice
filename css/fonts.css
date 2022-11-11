@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Firacode;
+  src: local("Firacode"),
+        url(../sources/fonts/FiraCode-Medium.woff) format(woff),
+        url(../sources/fonts/FiraCode-Medium.woff2) format(woff2);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Firacode;
+  src: local("Firacode"),
+        url(../sources/fonts/FiraCode-SemiBold.woff) format(woff),
+        url(../sources/fonts/FiraCode-SemiBold.woff2) format(woff2);
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Firacode;
+  src: local("Firacode"),
+        url(../sources/fonts/FiraCode-Regular.woff) format(woff),
+        url(../sources/fonts/FiraCode-Regular.woff2) format(woff2);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

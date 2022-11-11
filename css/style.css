@@ -1,0 +1,164 @@
+html, body {
+  background-color: #282C33;
+  font-family: Firacode;
+}
+
+.wrapper {
+  height: 300%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+  padding: 32px 64px 8px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  white-space: nowrap;
+}
+
+.logo {
+  padding-right: 32px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.okto {
+  color: #C778DD;
+}
+
+.navlist {
+  display: flex;
+  gap: 32px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navlink:first-child {
+  color: white;
+  font-weight: 500;
+}
+
+.navlink {
+  font-weight: 400;
+  color: #ABB2BF;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.navlink:hover {
+  color: #C778DD;
+}
+
+.media {
+  position: fixed;
+  width: 32px;
+  height: 311px;
+  top: 0px;
+  padding-left: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.medialink {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.medialink:hover {
+  transform: scale(1.05)
+}
+
+.logo:hover {
+  transform: scale(1.05)
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 62px 0px 0px;
+}
+
+.maintext {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 18px;
+}
+
+.text1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: white;
+  padding-top: 74px;
+}
+
+.text2 {
+  font-weight: 400;
+  line-height: 25px;
+  color: #ABB2BF;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.text3 {
+  font-weight: 500;
+  color: white;
+
+  padding: 8px 16px;
+  border: 1px solid #C778DD;
+}
+
+.headerimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.headerimg-elias {}
+.headerimgtextbox {
+  box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+margin-right: 10px;
+background: #C778DD;
+border: 1px solid #C778DD;
+}
+.headerimgtext {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:flex-start;
+  font-weight: 500;
+  color: #ABB2BF;
+  padding-left: 8px;
+  width: 402px;
+  height: 37px;
+  border: 1px solid #ABB2BF;
+}
+.clr_f {
+  color: #C778DD;
+}
+.clr_w {
+  color: white;
+}
+.headerimgtextlink{
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.headerimgtextlink:hover{
+  color: #C778DD;
+}
