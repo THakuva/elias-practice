@@ -212,7 +212,7 @@ border: 1px solid #C778DD;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 62px 0px 0px;
+    padding: 0px 0px 0px;
   }
   .navlist {
     display: flex;
@@ -251,6 +251,6 @@ border: 1px solid #C778DD;
     font-size: 30px;
     line-height: 42px;
     color: white;
-    padding-top: 74px;
+    padding-top: 0px;
   }
 }
