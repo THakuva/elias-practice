@@ -180,7 +180,8 @@ html, body {
   display: flex;
   flex-direction: column;
   align-self: center;
-  width: 712px;
+  max-width: 735px;
+  min-width: 200px;
   padding-top: 112px;
   margin: auto;
 }
@@ -193,8 +194,9 @@ html, body {
 
 .divquotetext {
   display: flex;
-  width: 712px;
-  height: 95px;
+  max-width: 735px;
+  min-width: 200px;
+  min-height: 95px;
   border: 1px solid #ABB2BF;
   justify-content: center;
   align-items: center;
@@ -203,12 +205,15 @@ html, body {
 }
 
 .divquotetexttext {
+  max-width: 734;
+  min-height: 35;
+  display: flex;
   font-weight: 500;
   font-size: 24px;
   line-height: 31px;
   color: #FFFFFF;
-  flex: none;
-order: 0;
+  flex: auto;
+  order: 0;
 }
 
 .mainquoteimg {
@@ -345,5 +350,30 @@ order: 0;
     padding-left: 26px;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
+  }
+  .divquotetexttext {
+    display: flex;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 31px;
+    color: #FFFFFF;
+    flex: auto;
+    order: 0;
+  }
+  .mainquotetextautor {
+    width: 162px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 31px;
+    align-self: flex-end;
+    border: 1px solid #ABB2BF;
+  
+    color: #FFFFFF;
+  
   }
 }
