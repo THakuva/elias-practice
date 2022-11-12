@@ -243,7 +243,47 @@ html, body {
   border: 1px solid #ABB2BF;
 
   color: #FFFFFF;
+}
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1027px;
+  height: 518px;
+  padding-top: 74px;
+  justify-content: flex-start;
+}
+
+.projectsheader {
+  max-width: 1027px;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+
+.projectsline {
+  width: 511px;
+  height: 1px;
+
+  margin-left: 16px;
+  margin-right: 16px;
+  background: #C778DD;
+}
+
+.projectsviewall {
+  width: 116px;
+  height: 21px;
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: white;
 }
 
 
@@ -277,6 +317,14 @@ html, body {
     gap: 32px;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .projectsline {
+    width: 100px;
+    height: 1px;
+
+    margin-left: 16px;
+    background: #C778DD;
   }
 }
 
@@ -352,6 +400,7 @@ html, body {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
+
   .divquotetexttext {
     display: flex;
     font-weight: 500;
@@ -361,6 +410,7 @@ html, body {
     flex: auto;
     order: 0;
   }
+
   .mainquotetextautor {
     width: 162px;
     height: 63px;
@@ -373,8 +423,16 @@ html, body {
     line-height: 31px;
     align-self: flex-end;
     border: 1px solid #ABB2BF;
-  
+
     color: #FFFFFF;
-  
+
+  }
+
+  .projectsline {
+    width: 70px;
+    height: 1px;
+
+    margin-left: 16px;
+    background: #C778DD;
   }
 }
