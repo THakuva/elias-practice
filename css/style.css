@@ -124,7 +124,6 @@ html, body {
 
 .text3:hover {
   transform: scale(1.05);
-  color: #C778DD;
 }
 
 .headerimg {
@@ -252,7 +251,6 @@ html, body {
   max-width: 1027px;
   height: 518px;
   padding-top: 74px;
-  justify-content: flex-start;
 }
 
 .projectsheader {
@@ -284,11 +282,110 @@ html, body {
   font-size: 16px;
   line-height: 21px;
   color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.projectsviewall:hover{
+  color: #C778DD;
+  transform: scale(1.05);
+}
+.projectsmain {
+  margin-top: 48px;
+  width: 1023.74px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
+.projectobject {
+  margin-right: 16px;
+  height: 391px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ABB2BF;
+}
+
+.projectobject1 {
+  margin-right: 16px;
+  height: 428px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ABB2BF;
+}
+
+.projectobject2 {
+  height: 422px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ABB2BF;
+}
+
+.projectimg {
+  width: 330.58px;
+  height: 201px;
+}
+
+.projecttext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 37px;
+  margin-left: 8px;
+
+  color: #ABB2BF;
+
+}
+
+.projectbuttonandname {
+  width: 330.58px;
+  border-top: 1px solid #ABB2BF;
+}
+
+.projectname {
+  margin: 16px;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+}
+
+.projectnametext {
+  margin: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ABB2BF;
+}
+
+.projectbuttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.projectbutton {
+  width: 109px;
+  height: 37px;
+  margin: 16px;
+  margin-left: 16px;
+  margin-right: 0px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ABB2BF;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.projectbutton:hover{
+  transform: scale(1.05);
+  border: 1px solid #C778DD;
+}
 
 /* -------------------------------------------------------- */
-@media (max-width:768px) {
+@media (max-width:850px) {
   .container {
     max-width: 768px;
     margin: auto;
