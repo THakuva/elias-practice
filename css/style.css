@@ -5,7 +5,7 @@ html, body {
 }
 
 .wrapper {
-  height: 300%;
+  height: auto;
   overflow: hidden;
 }
 
@@ -249,7 +249,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   max-width: 1027px;
-  height: 518px;
+  min-height: 518px;
   padding-top: 74px;
 }
 
@@ -291,7 +291,7 @@ html, body {
 }
 .projectsmain {
   margin-top: 48px;
-  width: 1023.74px;
+  max-width: 1023.74px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -385,7 +385,7 @@ html, body {
 }
 
 /* -------------------------------------------------------- */
-@media (max-width:850px) {
+@media (max-width:1080px) {
   .container {
     max-width: 768px;
     margin: auto;
@@ -415,14 +415,31 @@ html, body {
     flex-direction: row;
     justify-content: space-between;
   }
-
-  .projectsline {
-    width: 100px;
-    height: 1px;
-
-    margin-left: 16px;
-    background: #C778DD;
+  .projects {
+    transform: scale(0.85);
   }
+    .projectsmain {
+      margin-top: 48px;
+      max-width: 1023.74px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .projectobject {
+      max-width: 331px;
+      margin-bottom: 16px;
+      margin-right: 0px;
+    }
+    .projectobject1 {
+      max-width: 331px;
+      margin-bottom: 16px;
+      margin-right: 0px;
+    }
+    .projectobject2 {
+      max-width: 331px;
+      margin-bottom: 16px;
+    }
 }
 
 @media (max-width:420px) {
@@ -524,12 +541,29 @@ html, body {
     color: #FFFFFF;
 
   }
-
-  .projectsline {
-    width: 70px;
-    height: 1px;
-
-    margin-left: 16px;
-    background: #C778DD;
+.projects {
+  transform: scale(0.75);
+}
+  .projectsmain {
+    margin-top: 48px;
+    max-width: 1023.74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projectobject {
+    max-width: 331px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+  }
+  .projectobject1 {
+    max-width: 331px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+  }
+  .projectobject2 {
+    max-width: 331px;
+    margin-bottom: 16px;
   }
 }
