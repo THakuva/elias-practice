@@ -285,10 +285,12 @@ html, body {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-.projectsviewall:hover{
+
+.projectsviewall:hover {
   color: #C778DD;
   transform: scale(1.05);
 }
+
 .projectsmain {
   margin-top: 48px;
   max-width: 1023.74px;
@@ -379,10 +381,73 @@ html, body {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-.projectbutton:hover{
+
+.projectbutton:hover {
   transform: scale(1.05);
   border: 1px solid #C778DD;
 }
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  padding-top: 106px;
+}
+
+.skillstittle {
+  max-width: 391px;
+  height: 381px;
+  margin-right: 49px
+}
+
+.skilstittletext {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.skillsline {width: 239px;
+  height: 1px;
+  margin-left: 16px;
+  background: #C778DD;}
+
+.skillsinfo {
+  width: 584px;
+  height: 280px;
+  display: grid;
+  grid-template-columns: 178px 178px 196px;
+  grid-gap: 16px;
+  margin-top: 69px;
+}
+
+.skillsinfotittle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 8px;
+  color: #FFFFFF;
+}
+
+.skillsinfotext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  padding-left: 8px;
+  padding-top: 4px;
+  margin-bottom: 4px;
+  padding-right: 8px;
+  color: #ABB2BF;
+  border-top: 1px solid #ABB2BF;
+}
+
+.skillsbox {
+  margin-top: 16px ;
+  border: 1px solid #ABB2BF;
+}
+
 
 /* -------------------------------------------------------- */
 @media (max-width:1080px) {
@@ -415,31 +480,37 @@ html, body {
     flex-direction: row;
     justify-content: space-between;
   }
+
   .projects {
+    padding-top: 0px;
     transform: scale(0.85);
   }
-    .projectsmain {
-      margin-top: 48px;
-      max-width: 1023.74px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .projectobject {
-      max-width: 331px;
-      margin-bottom: 16px;
-      margin-right: 0px;
-    }
-    .projectobject1 {
-      max-width: 331px;
-      margin-bottom: 16px;
-      margin-right: 0px;
-    }
-    .projectobject2 {
-      max-width: 331px;
-      margin-bottom: 16px;
-    }
+
+  .projectsmain {
+    margin-top: 48px;
+    max-width: 1023.74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projectobject {
+    max-width: 331px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+  }
+
+  .projectobject1 {
+    max-width: 331px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+  }
+
+  .projectobject2 {
+    max-width: 331px;
+    margin-bottom: 16px;
+  }
 }
 
 @media (max-width:420px) {
@@ -541,9 +612,12 @@ html, body {
     color: #FFFFFF;
 
   }
-.projects {
-  transform: scale(0.75);
-}
+
+  .projects {
+    padding-top: 0px;
+    transform: scale(0.75);
+  }
+
   .projectsmain {
     margin-top: 48px;
     max-width: 1023.74px;
@@ -552,16 +626,19 @@ html, body {
     justify-content: center;
     align-items: center;
   }
+
   .projectobject {
     max-width: 331px;
     margin-bottom: 16px;
     margin-right: 0px;
   }
+
   .projectobject1 {
     max-width: 331px;
     margin-bottom: 16px;
     margin-right: 0px;
   }
+
   .projectobject2 {
     max-width: 331px;
     margin-bottom: 16px;
