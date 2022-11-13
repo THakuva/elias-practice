@@ -417,7 +417,6 @@ html, body {
   }
   .projects {
     transform: scale(0.85);
-    padding-top: 30px;
   }
     .projectsmain {
       margin-top: 48px;
@@ -543,7 +542,6 @@ html, body {
 
   }
 .projects {
-  padding-top: 16px;
   transform: scale(0.75);
 }
   .projectsmain {
