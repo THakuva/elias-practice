@@ -539,12 +539,14 @@ html, body {
   height: 150px;
   margin-right: 311px;
 }
+
 .contactsline {
-width: 127px;
-height: 1px;
-margin-left: 16px;
-background: #C778DD;
+  width: 127px;
+  height: 1px;
+  margin-left: 16px;
+  background: #C778DD;
 }
+
 .contactstittletext {
   font-weight: 500;
   font-size: 32px;
@@ -630,7 +632,7 @@ background: #C778DD;
   flex-direction: row;
   justify-content: flex-start;
   gap: 437px;
-  
+
 }
 
 .footerinfo {
@@ -680,10 +682,10 @@ background: #C778DD;
 
 .footermediatittle {
   font-weight: 500;
-font-size: 24px;
-line-height: 31px;
+  font-size: 24px;
+  line-height: 31px;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .footermedialogos {
@@ -693,6 +695,10 @@ color: #FFFFFF;
   gap: 8px;
 }
 
+.skillsimg {
+  width: 349px;
+  height: 282px;
+}
 
 /* -------------------------------------------------------- */
 @media (max-width:1080px) {
@@ -728,7 +734,6 @@ color: #FFFFFF;
 
   .projects {
     padding-top: 0px;
-    transform: scale(0.85);
   }
 
   .projectsmain {
@@ -755,6 +760,63 @@ color: #FFFFFF;
   .projectobject2 {
     max-width: 331px;
     margin-bottom: 16px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+  }
+
+  .skillsinfo {
+    margin-top: 0px;
+  }
+
+  .about-me {
+    flex-direction: column;
+    height: auto;
+    padding-top: 70px;
+  }
+
+  .about-meimg {
+    margin-top: 100px;
+  }
+
+  .contacts {
+    flex-direction: column;
+  }
+
+  .footersection {
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+  }
+
+  .footercopyright {
+    padding-top: 0px;
+  }
+
+  .footerinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .footerinfotext {
+    padding-top: 4px;
+    display: flex;
+    width: 280px;
+    justify-content: center;
+  }
+
+  .footermedialogos {
+    padding-top: 4px;
+  }
+
+  .footermediatittle {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -834,7 +896,7 @@ color: #FFFFFF;
   .divquotetexttext {
     display: flex;
     font-weight: 500;
-    font-size: 8px;
+    font-size: 12px;
     line-height: 31px;
     color: #FFFFFF;
     flex: auto;
@@ -860,16 +922,33 @@ color: #FFFFFF;
 
   .projects {
     padding-top: 0px;
-    transform: scale(0.75);
+    width: 270px;
+  }
+
+  .projectsheader {
+    width: 240px;
   }
 
   .projectsmain {
     margin-top: 48px;
-    max-width: 1023.74px;
+    width: 270px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .projectobject {
+    width: 270px;
+  }
+
+  .projectimg {
+    width: 270px;
+    height: auto;
+  }
+
+  .projectbuttonandname {
+    width: 270px;
   }
 
   .projectobject {
@@ -888,4 +967,73 @@ color: #FFFFFF;
     max-width: 331px;
     margin-bottom: 16px;
   }
+
+  .contactsinfotext {
+    width: 240px;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+
+  .about-meinfotext {
+    width: 240px;
+    height: auto;
+  }
+
+  .about-metittle {
+    width: 240px;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-meimg {
+    width: 240px;
+    height: auto;
+    margin-top: 0px;
+  }
+
+  .about-mebutton {
+    margin-top: 250px;
+  }
+
+  .about-meline {
+    width: auto;
+  }
+
+  .skillsline {
+    width: auto;
+  }
+
+  .skillsinfo {
+    width: 584px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 130px 240px 240px;
+    grid-gap: 4px;
+    margin-top: 0px;
+    justify-content: start;
+  }
+
+  .skillsimg {
+    width: 240px;
+    height: 195px;
+    margin-bottom: 16px;
+  }
+
+  .skilstittletext {
+    width: 240px;
+  }
+
+  .skillstittle {
+    height: auto;
+  }
+
+  .contacts {
+    padding-top: 64px;
+  }
+
+  1
 }
