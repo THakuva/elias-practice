@@ -604,6 +604,92 @@ html, body {
   margin-bottom: 8px;
 }
 
+.footer {
+  max-width: 1366px;
+  height: 222px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 131px;
+  border-top: 1px solid #ABB2BF;
+}
+
+.footerframe {
+  max-width: 1025px;
+  height: 158px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footersection {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 437px;
+  
+}
+
+.footerinfo {
+  width: 476px;
+  height: 89px;
+}
+
+.footerlogo {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  width: 272px;
+  height: 31px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ABB2BF;
+}
+
+.footerinfotext {
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.footercopyright {
+  max-width: 1025px;
+  height: 21px;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  padding-top: 48px;
+  color: #ABB2BF;
+}
+
+.footermedia {
+  width: 113px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footermediatittle {
+  font-weight: 500;
+font-size: 24px;
+line-height: 31px;
+
+color: #FFFFFF;
+}
+
+.footermedialogos {
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+  gap: 8px;
+}
+
+
 /* -------------------------------------------------------- */
 @media (max-width:1080px) {
   .container {
