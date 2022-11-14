@@ -525,6 +525,85 @@ html, body {
   height: 507px;
 }
 
+.contacts {
+  display: flex;
+  flex-direction: row;
+  padding-top: 112px;
+  max-width: 1023px;
+  min-height: 228px;
+}
+
+.contactstittle {
+  max-width: 505px;
+  height: 150px;
+  margin-right: 311px;
+}
+
+.contactstittletext {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+
+
+
+}
+
+.contactsinfo {
+  margin-top: 45px;
+  width: 505px;
+  height: 63px;
+}
+
+.contactsinfotext {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #ABB2BF;
+}
+
+.contactslinks {
+  width: 204px;
+  height: 141px;
+  margin-top: 87px;
+  border: 1px solid #ABB2BF;
+}
+
+.contactslinktext {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin: 16px;
+
+}
+
+.contactslink {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  width: 200px;
+  height: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ABB2BF;
+}
+
+.contactslinkimgtext {
+  margin-left: 5px;
+  width: 135px;
+  height: 21px;
+}
+
+.contactslink:first-child {
+  margin-bottom: 8px;
+}
+
 /* -------------------------------------------------------- */
 @media (max-width:1080px) {
   .container {
