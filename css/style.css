@@ -538,7 +538,12 @@ html, body {
   height: 150px;
   margin-right: 311px;
 }
-
+.contactsline {
+width: 127px;
+height: 1px;
+margin-left: 16px;
+background: #C778DD;
+}
 .contactstittletext {
   font-weight: 500;
   font-size: 32px;
@@ -547,8 +552,6 @@ html, body {
   display: flex;
   align-items: center;
   margin-bottom: 12px;
-
-
 
 }
 
