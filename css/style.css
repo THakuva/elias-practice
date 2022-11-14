@@ -5,7 +5,6 @@ html, body {
 }
 
 .wrapper {
-  height: auto;
   overflow: hidden;
 }
 
@@ -1034,6 +1033,10 @@ html, body {
   .contacts {
     padding-top: 64px;
   }
-
-  1
+  .footerframe {
+    transform: scale(0.75);
+  }
+  .footercopyright {
+    transform: scale(0.75);
+  }
 }
