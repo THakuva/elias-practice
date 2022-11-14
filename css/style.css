@@ -12,7 +12,7 @@ html, body {
 .container {
   max-width: 1150px;
   margin: auto;
-  padding: 32px 64px 8px;
+  padding: 32px 61.5px 8px;
 }
 
 .header {
@@ -124,6 +124,7 @@ html, body {
 
 .text3:hover {
   transform: scale(1.05);
+  background: rgba(199, 120, 221, 0.2);
 }
 
 .headerimg {
@@ -293,7 +294,7 @@ html, body {
 
 .projectsmain {
   margin-top: 48px;
-  max-width: 1023.74px;
+  max-width: 1027px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -385,6 +386,7 @@ html, body {
 .projectbutton:hover {
   transform: scale(1.05);
   border: 1px solid #C778DD;
+  background: rgba(199, 120, 221, 0.2);
 }
 
 .skills {
@@ -409,10 +411,12 @@ html, body {
   margin-bottom: 12px;
 }
 
-.skillsline {width: 239px;
+.skillsline {
+  width: 239px;
   height: 1px;
   margin-left: 16px;
-  background: #C778DD;}
+  background: #C778DD;
+}
 
 .skillsinfo {
   width: 584px;
@@ -444,10 +448,82 @@ html, body {
 }
 
 .skillsbox {
-  margin-top: 16px ;
+  margin-top: 16px;
   border: 1px solid #ABB2BF;
 }
 
+.about-me {
+  display: flex;
+  flex-direction: row;
+  padding-top: 106px;
+}
+
+.about-metittle {
+  max-width: 515px;
+  height: 316px;
+  margin-right: 166px
+}
+
+.about-metittletext {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.about-meline {
+  width: 239px;
+  height: 1px;
+  margin-left: 16px;
+  background: #C778DD;
+}
+
+.about-meinfo {
+  width: 515px;
+  height: 252px;
+  margin-top: 48px;
+}
+
+.top {
+  padding-top: 21px;
+}
+
+.about-meinfotext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #ABB2BF;
+}
+
+.about-mebutton {
+  width: 148px;
+  height: 37px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ABB2BF;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.about-mebutton:hover {
+  transform: scale(1.05);
+  border: 1px solid #C778DD;
+  background: rgba(199, 120, 221, 0.2);
+}
+
+.about-meimg {
+  width: 339px;
+  height: 507px;
+}
 
 /* -------------------------------------------------------- */
 @media (max-width:1080px) {
