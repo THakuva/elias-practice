@@ -39,7 +39,7 @@ html, body {
   justify-content: space-between;
 }
 
-.navlink:first-child {
+.active {
   color: white;
   font-weight: 500;
 }
@@ -114,11 +114,16 @@ html, body {
 
 .text3 {
   font-weight: 500;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
-
+  width: 148px;
+  height: 37px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  padding: 8px 16px;
+
   border: 1px solid #C778DD;
 }
 
@@ -698,7 +703,48 @@ html, body {
   width: 349px;
   height: 282px;
 }
+.workstittle {
+  margin-top: 53px;
+  font-weight: 600;
+font-size: 32px;
+line-height: 42px;
+color: #FFFFFF;
+margin-bottom: 68px;
+}
 
+.workstittletext {
+  font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.complete-appstittle {
+  font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+color: #FFFFFF;
+
+}
+.projectobject3 {
+  height: 391px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ABB2BF;
+}
+.projectobject4 {
+  height: 391px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ABB2BF;
+  margin-right: 345px;
+}
+.projectsmain2 {
+  margin-top: 16px;
+  max-width: 1027px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 /* -------------------------------------------------------- */
 @media (max-width:1080px) {
   .container {
