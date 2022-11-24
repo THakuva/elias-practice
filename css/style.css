@@ -832,7 +832,77 @@ html, body {
   padding: 16px;
   color: #ABB2BF;
 }
+.heroabout-me {
+  display: flex;
+  flex-direction: column;
+  padding-top: 53px;
+}
+.heroabout-metittle {
+  display: flex;
+  font-weight: 600;
+font-size: 32px;
+color: #FFFFFF;
+padding-bottom: 14px;
+}
+.heroabout-metittletext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
 
+  color: #FFFFFF;
+}
+.heroabout-meinfo{
+  display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+  align-items: center;
+  gap: 170px;
+}
+.heroabout-meinfotext {
+  font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+width: 515px;
+height: 300px;
+color: #ABB2BF;
+}
+.about-meskills {
+  display: flex;
+  flex-direction: column;
+  padding-top: 112px;
+}
+.aboutme-skillstittle {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+}
+.about-meskillsinfo {
+  display: grid;
+  grid-template-columns: 192px 192px 192px 192px 192px;
+  gap: 16px;
+  padding-top: 48px;
+}
+.about-meskillsinfogrid {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  height: min-content;
+  color: #ABB2BF;
+  border: 1px solid #ABB2BF;
+}
+.about-meskillsinfotexttittle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  border-bottom: 1px solid #ABB2BF;
+  color: #FFFFFF;
+  padding: 8px;
+}
+.about-meskillsinfotext {
+  padding: 8px;
+}
 /* -------------------------------------------------------- */
 @media (max-width:1080px) {
   .container {
