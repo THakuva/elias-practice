@@ -933,12 +933,14 @@ html, body {
 
   color: #FFFFFF;
 }
+
 .my-fun-factsinf {
   display: flex;
   flex-direction: row;
   gap: 137px;
   padding-top: 26px;
 }
+
 .my-fun-factsinfo {
   width: 630px;
   height: 196px;
@@ -961,6 +963,132 @@ html, body {
   padding: 8px;
   border: 1px solid #ABB2BF;
   width: max-content;
+}
+
+.contactshero {
+  padding-top: 53px;
+}
+
+.contactsherotittle {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+}
+
+.contactsherotittletext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  padding-top: 14px;
+  color: #FFFFFF;
+}
+
+.contactsheroinfo {
+  display: flex;
+  flex-direction: row;
+  padding-top: 43px;
+}
+
+.contactsherotext {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ABB2BF;
+  width: 505px;
+  height: 63px;
+  margin-right: 117px;
+}
+
+.contactsherotext1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ABB2BF;
+  padding: 16px;
+  padding-top: 0px;
+  white-space: nowrap;
+  width: min-content;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ABB2BF;
+}
+
+.contactsherotexttittle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 16px;
+  padding-bottom: 8px;
+}
+
+.contactsherotext2 {
+  padding: 16px;
+  padding-top: 0px;
+  padding-bottom: 8px;
+  white-space: nowrap;
+  width: min-content;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ABB2BF;
+  margin-left: 11px;
+
+}
+
+.contactsherolink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 172px;
+  height: 32px;
+  padding-bottom: 8px;
+  transition: 0.5s;
+}
+.contactsherolink:hover {
+  color: #FFFFFF;
+  transform: scale(1.03);
+}
+.contactsherolinktext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  padding-left: 5px;
+  color: #ABB2BF;
+}
+.contacts-allmedia {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.contacts-allmediatittle {
+  font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+color: #FFFFFF;
+padding-bottom: 22px
+}
+.contacts-allmedialink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: 0.5s;
+}
+.contacts-allmedialink:hover {
+  color: #FFFFFF;
+  transform: scale(1.03);
+}
+.contacts-allmedialinktext {
+  font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #ABB2BF;
+margin-left: 5px;
 }
 
 /* -------------------------------------------------------- */
